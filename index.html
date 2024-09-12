@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
+
+  <!-- Replace with your own title and description. -->
+  <title>WiFiKit-II - Quick Start Guide</title>
+  <meta name="description" content="Add Wi-Fi Function to your Daikin or Mitsubishi A/C">
+
+  <!-- Default Theme (see https://docsify.js.org/#/themes) -->
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"> -->
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/buble.css"> -->
+
+  <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+  <link rel="stylesheet" media="(prefers-color-scheme: light)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+  <style>
+
+    :root {
+      --base-font-size: 18;
+      --theme-color   : #29a19c;
+
+      --sidebar-width                               : 20rem;
+
+      --sidebar-toggle-height                       : 45px;
+      --sidebar-toggle-width                        : 60px;
+      --sidebar-toggle-icon-height                  : 10px;
+      --sidebar-toggle-icon-stroke-width            : 2px;
+      --sidebar-toggle-icon-width                   : 20px;
+      --sidebar-toggle-icon-height                  : 15px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div id="app"></div>
+
+  <script>
+    // Docsify Configuration (see https://docsify.js.org/#/configuration)
+    window.$docsify = {
+      name: 'WiFiKit-II',
+      // logo: '/img/wifikit-logo.png',
+
+      // Sidebar Configuration
+      auto2top: true,
+      loadSidebar: true,
+      // maxLevel: ,
+      // Set subMaxLevel to 0 to remove automatic display of page table of contents (TOC) in Sidebar
+      subMaxLevel: 2,
+
+      // Search Plugin Configuration
+      search: {
+        placeholder: 'Type to search',
+        noData: 'No matches found.',
+        // Headline depth, 1 - 6
+        depth: 2,
+      }
+    };
+  </script>
+
+  <!-- Required -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+
+  <!-- Recommended -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+</body>
+</html>

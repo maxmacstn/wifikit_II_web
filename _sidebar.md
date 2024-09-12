@@ -1,0 +1,7 @@
+- [เกี่ยวกับโมดูล](/)
+- [การติดตั้ง](installation)
+- [เชื่อมต่อเข้าแอป](setup-tuya)
+- [การเชื่อมต่อเข้าแพลทฟอร์มอื่น](setup-3rd-party)
+- [การตั้งค่าโมดูล](module-setting)
+- [การอัปเดต Firmware](firmware-update)
+- [ขนาดและมิติ](dimension)
