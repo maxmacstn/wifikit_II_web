@@ -40,9 +40,9 @@
     ![](/img/localtuya/iot-3.png)
 
 6. ในหน้าของโปรเจกต์ ไปที่แท็บ `Devices > Link App Account` แล้วกด `Add App Account` QR Code จะปรากฎขึ้นมา ให้สแกนด้วยแอป Tuya Smart หรือ Smart Life ที่ได้ผูกอุปกรณ์ WiFiKit-II ไว้ แล้วทำการกด Confirm Login
-    ![](/img/localtuya/iot-4.png)
-    ![](/img/localtuya/iot-5.jpg)
-        **หากไม่สามารถ Link ได้ แสดงว่า Region ของแอปไม่ตรงกับ Data Center ที่เลือกในข้อ 5 ให้ทำการ Delete Project และสร้างใหม่
+![](/img/localtuya/iot-4.png)
+![](/img/localtuya/iot-5.jpg)
+**หากไม่สามารถ Link ได้ แสดงว่า Region ของแอปไม่ตรงกับ Data Center ที่เลือกในข้อ 5 ให้ทำการ Delete Project และสร้างใหม่**
 
 
 7. ในหน้าต่าง Link App Account เลือก `Automatic Link` หลังจากนั้นจะมีข้อความแจ้งขึ้นมาว่าลิงก์อุปกรณ์แล้วทั้งหมดกี่ตัว หากขึ้น 0 Devices อาจจะเป็นไปได้ว่าเลือกผิด Data center
@@ -95,11 +95,11 @@ Local Tuya คือ Unofficial Integration สำหรับการเชื
 สำหรับ LocalTuya มีหลายเวอร์ชั่นจากหลายนักพัฒนา โดย**เวอร์ชั่นที่เราใช้จะเป็นของ [xZetsubou](https://github.com/xZetsubou/hass-localtuya)** เนื่องจากรองรับฟีเจอร์เยอะกว่า และตั้งค่าได้ง่ายกว่าตัวหลักจาก [rospogrigio](https://github.com/rospogrigio/localtuya)
 
 1. กดเมนู HACS จาก Sidebar
-2. กดปุ่มเมนูด้านบนขวา เลือก `Custom repositories` 
+2. กดปุ่มเมนูด้านบนขวา เลือก **Custom repositories**
 3. ใส่ข้อมูลตามด้านล่าง กด **ADD** แล้วปิดหน้าต่าง
     - Repository: `https://github.com/xZetsubou/hass-localtuya`
     - Type: `Integration`
-4. ค้นหา `localtuya` **เลือกอันที่มาจาก Repository ของ xZetsubou** แล้วกด **DOWNLOAD** รอให้การดาวน์โหลดเสร็จสิ้น
+4. ค้นหา **localtuya** เลือกอันที่มาจาก Repository ของ **xZetsubou** แล้วกด **DOWNLOAD** รอให้การดาวน์โหลดเสร็จสิ้น
 ![](/img/localtuya/hacs-4.png)
 5. ไปที่ **Settings** แล้วจะเห็นว่ามี HACS/LocalTuya แจ้งเตือนขึ้นมา ให้ทำการ Restart โดยการ **SUBMIT** แล้วรอระบบ Restart
 
