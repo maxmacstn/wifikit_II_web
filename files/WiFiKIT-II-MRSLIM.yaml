@@ -1,0 +1,69 @@
+- climate:
+    friendly_name: Mitsubishi A/C
+    entity_category: None
+    target_temperature_dp: '2'
+    current_temperature_dp: '3'
+    temperature_step: '1'
+    min_temperature: 15.0
+    max_temperature: 30.0
+    precision: '1'
+    target_precision: '1'
+    hvac_mode_dp: '4'
+    hvac_mode_set:
+      auto: auto
+      cool: cold
+      heat: heat
+      dry: dry
+      fan_only: fan
+    hvac_action_set:
+      heating: opened
+      idle: closed
+    preset_set: {}
+    swing_mode_dp: '101'
+    swing_modes:
+      vane_vertical_auto: Auto
+      vane_vertical_swing: Swing
+      vane_vertical_1: Level 1
+      vane_vertical_2: Level 2
+      vane_vertical_3: Level 3
+      vane_vertical_4: Level 4
+      vane_vertical_5: Level 5
+    swing_horizontal_dp: '102'
+    swing_horizontal_modes:
+      vane_horizontal_swing: Swing
+      vane_horizontal_1: '<<'
+      vane_horizontal_2: <
+      vane_horizontal_3: '|'
+      vane_horizontal_4: '>'
+      vane_horizontal_5: '>>'
+    fan_speed_dp: '5'
+    fan_speed_list: level_auto, level_quiet, level_1, level_2, level_3, level_4
+    temperature_unit: celsius
+    id: '1'
+    platform: climate
+    icon: mdi:air-conditioner
+- sensor:
+    friendly_name: Power Usage
+    entity_category: None
+    unit_of_measurement: W
+    device_class: power
+    state_class: measurement
+    id: '107'
+    platform: sensor
+    icon: mdi:lightning-bolt-circle
+- switch:
+    friendly_name: Beep
+    entity_category: config
+    restore_on_reconnect: false
+    is_passive_entity: false
+    id: '111'
+    platform: switch
+    icon: mdi:volume-high
+- switch:
+    friendly_name: Status LED
+    entity_category: config
+    restore_on_reconnect: false
+    is_passive_entity: false
+    id: '105'
+    platform: switch
+    icon: mdi:wall-sconce-flat-variant

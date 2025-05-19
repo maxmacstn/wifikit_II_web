@@ -1,0 +1,116 @@
+- climate:
+    friendly_name: Daikin A/C
+    entity_category: None
+    target_temperature_dp: '2'
+    current_temperature_dp: '3'
+    temperature_step: '0.5'
+    min_temperature: 16.0
+    max_temperature: 30.0
+    precision: '0.1'
+    target_precision: '0.1'
+    hvac_mode_dp: '4'
+    hvac_mode_set:
+      auto: auto
+      cool: cold
+      heat: heat
+      dry: dry
+      fan_only: fan
+    hvac_action_dp: '110'
+    hvac_action_set:
+      idle: 0
+    preset_set: {}
+    swing_mode_dp: '101'
+    swing_modes:
+      '0': Level 0
+      '1': Level 1
+      '2': Level 2
+      '3': Level 3
+      '4': Level 4
+      Hold: Hold
+      Swing: Swing
+    swing_horizontal_dp: '102'
+    swing_horizontal_modes:
+      Hold: Hold
+      Swing: Swing
+    fan_speed_dp: '5'
+    fan_speed_list: level_auto,level_quiet,level_1,level_2,level_3,level_4,level_5
+    temperature_unit: celsius
+    id: '1'
+    platform: climate
+    icon: mdi:air-conditioner
+- sensor:
+    friendly_name: Outside Temperature
+    entity_category: None
+    unit_of_measurement: °C
+    device_class: temperature
+    state_class: measurement
+    scaling: 0.1
+    id: '116'
+    platform: sensor
+    icon: ''
+- sensor:
+    friendly_name: FCU Temperature
+    entity_category: None
+    unit_of_measurement: °C
+    device_class: temperature
+    state_class: measurement
+    scaling: 0.1
+    id: '109'
+    platform: sensor
+    icon: ''
+- sensor:
+    friendly_name: Compressor
+    entity_category: None
+    unit_of_measurement: Hz
+    device_class: frequency
+    state_class: measurement
+    id: '110'
+    platform: sensor
+    icon: ''
+- sensor:
+    friendly_name: Energy Used
+    entity_category: None
+    unit_of_measurement: kWh
+    device_class: energy
+    state_class: total_increasing
+    scaling: 0.1
+    id: '118'
+    platform: sensor
+    icon: ''
+- sensor:
+    friendly_name: Fan RPM
+    entity_category: None
+    unit_of_measurement: RPM
+    device_class: speed
+    state_class: measurement
+    id: '115'
+    platform: sensor
+    icon: ''
+- sensor:
+    friendly_name: Error Code
+    entity_category: diagnostic
+    id: '117'
+    platform: sensor
+    icon: mdi:alert
+- sensor:
+    friendly_name: Model Name
+    entity_category: diagnostic
+    id: '114'
+    platform: sensor
+    icon: mdi:alert-circle-outline
+- switch:
+    friendly_name: Beep
+    entity_category: config
+    restore_on_reconnect: false
+    is_passive_entity: false
+    id: '111'
+    platform: switch
+    icon: mdi:volume-high
+- switch:
+    friendly_name: Status LED
+    entity_category: config
+    restore_on_reconnect: false
+    is_passive_entity: false
+    id: '105'
+    platform: switch
+    icon: mdi:wall-sconce-flat-variant
