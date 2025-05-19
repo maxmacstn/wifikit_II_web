@@ -40,8 +40,8 @@
     ![](/img/localtuya/iot-3.png)
 
 6. ในหน้าของโปรเจกต์ ไปที่แท็บ `Devices > Link App Account` แล้วกด `Add App Account` QR Code จะปรากฎขึ้นมา ให้สแกนด้วยแอป Tuya Smart หรือ Smart Life ที่ได้ผูกอุปกรณ์ WiFiKit-II ไว้ แล้วทำการกด Confirm Login
-    - ![](/img/localtuya/iot-4.png)
-    - ![](/img/localtuya/iot-5.jpg)
+    ![](/img/localtuya/iot-4.png)
+    ![](/img/localtuya/iot-5.jpg)
         **หากไม่สามารถ Link ได้ แสดงว่า Region ของแอปไม่ตรงกับ Data Center ที่เลือกในข้อ 5 ให้ทำการ Delete Project และสร้างใหม่
 
 
@@ -117,18 +117,27 @@ Local Tuya คือ Unofficial Integration สำหรับการเชื
 # ตั้งค่า Local Tuya Integration
 
 1. โหลดไฟล์ YAML template สำหรับการตั้งค่า WiFiKit-II 
-    1. `WiFiKIT-II-DK.yaml` สำหรับโมดูลเวอร์ชั่น Daikin
-    2. `WiFiKIT-II-MRSLIM.yaml` สำหรับโมดูลเวอร์ชั่น Mitsubishi Electric Mr.Slim
+    - <a href="/files/WiFiKIT-II-DK.yaml" download> `WiFiKIT-II-DK.yaml` </a>
+    - <a href="/files/WiFiKIT-II-MRSLIM.yaml" download> `WiFiKIT-II-MRSLIM.yaml` </a> 
 2. คัดลอกไฟล์ไปวางไว้ในโฟลเดอร์ `custom_components/localtuya/templates/` โดยสามารถใช้วิธีใดก็ได้ หรือจะใช้ File Editor ที่ได้ติดตั้งไปก่อนหน้านี้ในการอัปโหลดไฟล์ไปที่ Folder ดังกล่าวก็ได้เช่นกัน
+![](/img/localtuya/localtuya-1.png)
+
 3. ไปที่ `Settings > Device & Services > ADD INTEGRATION` แล้วทำการค้นหา Local Tuya
 4. ทำการตั้งค่าโดยใส่ข้อมูลให้ตรงกับที่ได้จาก Tuya IoT Plaform
     - **Data Center Region** สำหรับ Region ไทย เลือก `Western America Data Center`
     - **Access ID / Client ID**
     - **Access Secret / Client Secret**
     - **App Account UID / User ID**
+
+    ![](/img/localtuya/localtuya-2.png)
+
+
 5. กด CONFIGURE แล้ว `Add new device`  แล้วเลือกอุปกรณ์ที่ค้นหาเจอ
+    ![](/img/localtuya/localtuya-3.png)
 6. ในหน้า `Configure device connectivity` กด SUBMIT ได้เลย
 7. ในหน้า `Configure device entities` กด Use saved template แล้วเลือก Template `WiFiKIT-II-XX.yaml` ที่ได้เพิ่มเข้าไปแล้วกด SUBMIT
 8. ไฟล์ Template ได้ทำการจับคู่ฟังก์ชันการทำงานของ Tuya (DP ID) เข้ากับ Entity ของ Home Assistant เรียบร้อย **ให้ทำการกด SUBMIT ไปเรื่อยๆ จนจบขั้นตอนได้เลย** แต่ถ้าอยากปรับค่าเพิ่ม หรือไม่ต้องการเชื่อมต่อฟีเจอร์ไหนเข้า Home Assistant ก็สามารถมาปรับแต่งเพิ่มได้
 9. อุปกรณ์ถูกเพิ่มเข้า Home Assistant เรียบร้อย 
 10. เพื่อลดปัญหาที่อาจเกิดขึ้น แนะนำให้ทำการ Fix IP ของอุปกรณ์ Tuya ด้วย
+
+![](/img/localtuya/localtuya-4.png)
