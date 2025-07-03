@@ -143,7 +143,7 @@
     <td class="tg-0pky">Hold, Swing</td>
   </tr>
   <tr>
-    <td class="tg-0pky" rowspan="5">การดูข้อมูล</td>
+    <td class="tg-0pky" rowspan="6">การดูข้อมูล</td>
     <td class="tg-0pky">อุณหภูมิห้อง</td>
     <td class="tg-0pky"><span style="font-weight:400;font-style:normal">ความละเอียด 0.5°C</span></td>
   </tr>
@@ -162,6 +162,10 @@
   <tr>
     <td class="tg-0pky">ความถี่คอมเพรซเซอร์*</td>
     <td class="tg-0pky">Hz</td>
+  </tr>
+    <tr>
+    <td class="tg-0pky">การใช้พลังงาน*</td>
+    <td class="tg-0pky">หน่วย</td>
   </tr>
 </tbody>
 </table>
