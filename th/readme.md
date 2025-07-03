@@ -2,7 +2,7 @@
 
 > WiFiKit-II คือโมดูล Wi-Fi สำหรับเชื่อมต่อเครื่องปรับอากาศเข้ากับระบบ Smart Home สั่งงานผ่านมือถือผ่านแอป Tuya หรือ Smart Life รองรับเครื่องปรับอากาศที่มี Interface บนบอร์ดสำหรับสั่งงานจากโมดูลภายนอก เช่น Mitsubishi Mr.Slim และ Daikin
 
-![header](/img/promo-1.jpg)
+![header](../img/promo-1.jpg)
 
 ## ฟีเจอร์
 - ชิปประมวลผลหลัก ARM® Cortex®-M0+
@@ -15,8 +15,8 @@
 - ไฟ LED แสดงสถานะการทำงาน (ปิดได้)
 - ปุ่มสั่งงาน / ปุ่ม Reset
 
-<!-- ![module](/img/module-outer.jpeg) -->
-<img src="/img/module-outer.jpeg" style="max-width:500px;width:100%">
+<!-- ![module](../img/module-outer.jpeg) -->
+<img src="../img/module-outer.jpeg" style="max-width:500px;width:100%">
 
 ## ฟังก์ชั่นการทำงานที่รองรับ
 ฟังก์ชั่นการทำงานในแต่ละรุ่นอาจจะแตกต่างกัน ขึ้นอยู่กับการรองรับของแอร์รุ่นนั้น ๆ 
@@ -170,4 +170,4 @@
 
 ## ตัวอย่าง UI ในการสั่งงาน
 
-![app-screenshot](/img/app-ss.jpeg)
+![app-screenshot](../img/app-ss.jpeg)

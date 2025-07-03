@@ -14,6 +14,6 @@
 - กดเชื่อมต่อและใส่รหัสของ Wi-Fi
 - ทำตามขั้นตอนในแอป
 
-![app_pairing](/img/app-pairing.jpg)
+![app_pairing](../img/app-pairing.jpg)
 
 

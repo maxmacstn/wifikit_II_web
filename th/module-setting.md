@@ -1,6 +1,6 @@
 # การตั้งค่าโมดูล
 
-![module_img](/img/module-outer.jpeg ':size=70%')
+![module_img](../img/module-outer.jpeg ':size=70%')
 
 
 ## สถานะของไฟ LED
@@ -93,5 +93,5 @@
 ## การเปิด/ปิดเสียง Buzzer และไฟ LED
 สามารถทำได้ในแอปตามภาพด้านล่าง
 
-<img src="/img/app-settings.jpg" style="max-width:500px;width:100%">
+<img src="../img/app-settings.jpg" style="max-width:500px;width:100%">
 

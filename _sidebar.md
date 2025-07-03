@@ -1,8 +1,0 @@
-- [เกี่ยวกับโมดูล](/)
-- [การติดตั้ง](installation)
-- [เชื่อมต่อเข้าแอป](setup-tuya)
-- [เชื่อมต่อสั่งงานผ่านเสียง](setup-3rd-party)
-- [เชื่อมต่อกับ Home Assistant](setup-ha)
-- [การตั้งค่าโมดูล](module-setting)
-- [การอัปเดต Firmware](firmware-update)
-- [ขนาดและมิติ](dimension)

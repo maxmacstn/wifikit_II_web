@@ -1,0 +1,8 @@
+- [About](/en-us/)
+- [Installation](/en-us/installation)
+- [App Setup](/en-us/setup-tuya)
+- [Voice Controls](/en-us/setup-3rd-party)
+- [Connecting to Home Assistant](/en-us/setup-ha)
+- [Module Settings](/en-us/module-setting)
+- [Firmware Update](/en-us/firmware-update)
+- [Module Dimensions](/en-us/dimension)

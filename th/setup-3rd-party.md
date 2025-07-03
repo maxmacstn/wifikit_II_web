@@ -9,7 +9,7 @@
 6. กด Link `3`
 7. ทำตามขั้นตอนในแอป Google Home หรือ Amazon Alexa
 
-![setup-3rd-party](img/setup-3rd-party.jpg)
+![setup-3rd-party](../img/setup-3rd-party.jpg)
 
 ## Siri Shortcuts
 สำหรับการสั่งงานเสียงผ่าน Siri จะเป็นการทำงานตาม scene ​(Tap-to-Run) ที่ได้มีการกำหนดไว้ในแอปแล้วเท่านั้น ไม่สามารถนำเข้า Apple HomeKit หรือว่าสั่งงานนอกเหนือจาก scene ที่ได้ตั้งไว้ได้
@@ -19,4 +19,4 @@
 4. แก้ไขคำพูดที่ต้องการใช้ในการสั่งงานได้่ตามต้องการ `4`
 5. กดบันทึก
 
-![setup-siri](/img/setup-siri.jpg)
+![setup-siri](../img/setup-siri.jpg)
