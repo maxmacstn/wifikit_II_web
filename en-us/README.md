@@ -152,11 +152,11 @@ The supported functions may vary depending on the air conditioner model.
     <td class="tg-0pky"><span style="font-weight:400;font-style:normal">0.5°C resolution</span></td>
   </tr>
   <tr>
-    <td class="tg-0pky">Evaporator Coil Temperature</td>
+    <td class="tg-0pky">FCU Coil Temperature</td>
     <td class="tg-0pky"><span style="font-weight:400;font-style:normal">0.5°C resolution</span></td>
   </tr>
   <tr>
-    <td class="tg-0pky">Evaporator Fan Speed</td>
+    <td class="tg-0pky">FCU Fan Speed</td>
     <td class="tg-0pky">RPM</td>
   </tr>
   <tr>

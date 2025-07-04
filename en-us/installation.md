@@ -21,7 +21,7 @@ Connects to the air conditioner via the `CN105` or labled as `IT` port on the PC
 ### `CN105` Port Location
 ![ins_mrslim](../img/port-ms.jpeg )
 
-### Recommended Module Installation Location
+### Recommended Installation Location
 ![rec_mrslim](../img/ms-recommended-installation.jpg )
 
 ## Daikin

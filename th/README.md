@@ -91,7 +91,7 @@
 
 
 ### Daikin
-
+RA = Room Air, SkyAir = Cassette Type
 <style type="text/css">
 .tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
 .tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
@@ -128,7 +128,7 @@
   </tr>
   <tr>
     <td class="tg-0pky">การตั้งอุณภภูมิเป้าหมาย</td>
-    <td class="tg-0pky">ปรับได้ความละเอียด 0.5°C</td>
+    <td class="tg-0pky">RA: ปรับได้ความละเอียด 0.5°C <br> SkyAir: ปรับได้ความละเอียด 1°C </td>
   </tr>
   <tr>
     <td class="tg-0pky">ความแรงพัดลม</td>
@@ -136,14 +136,14 @@
   </tr>
   <tr>
     <td class="tg-0pky"><span style="font-weight:400;font-style:normal">การส่ายแนวนอน*</span></td>
-    <td class="tg-0pky">Hold, Swing</td>
+    <td class="tg-0pky">RA: Hold, Swing <br>SkyAir: Swing,1,2,3,4,5</td>
   </tr>
     <tr>
     <td class="tg-0pky"><span style="font-weight:400;font-style:normal">การส่ายแนวตั้ง*</span></td>
-    <td class="tg-0pky">Hold, Swing</td>
+    <td class="tg-0pky">RA: Hold, Swing <br>SkyAir: ไม่รองรับ</td>
   </tr>
   <tr>
-    <td class="tg-0pky" rowspan="6">การดูข้อมูล</td>
+    <td class="tg-0pky" rowspan="7">การดูข้อมูล</td>
     <td class="tg-0pky">อุณหภูมิห้อง</td>
     <td class="tg-0pky"><span style="font-weight:400;font-style:normal">ความละเอียด 0.5°C</span></td>
   </tr>
@@ -166,6 +166,11 @@
     <tr>
     <td class="tg-0pky">การใช้พลังงาน*</td>
     <td class="tg-0pky">หน่วย</td>
+  </tr>
+  </tr>
+    <tr>
+    <td class="tg-0pky">Error Code</td>
+    <td class="tg-0pky">สองหลัก/สี่หลัก</td>
   </tr>
 </tbody>
 </table>

@@ -1,4 +1,4 @@
-- [About](/en-us/)
+- [About](/en-us/README.md)
 - [Installation](/en-us/installation)
 - [App Setup](/en-us/setup-tuya)
 - [Voice Controls](/en-us/setup-3rd-party)
