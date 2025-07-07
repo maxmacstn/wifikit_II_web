@@ -13,4 +13,5 @@
 - Works with Tuya Platform, control from anywhere.
 
 [Buy now](https://www.m.me/magiDIY)
-[Installation guide](#about-WiFiKit-II)
+[About](#About-WiFiKit-II)
+[Installation guide](/en-us/installation.md)
