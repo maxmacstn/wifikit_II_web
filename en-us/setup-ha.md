@@ -4,7 +4,7 @@ The WiFiKit-II module is designed to work specifically with the Tuya Smart / Sma
 
 This article is divided into 3 parts:
 
-1. Setting up the Tuya IoT Platform: Obtaining necessary codes and tokens from the Tuya IoT Platform website
+1. Obtaining credentials from Tuya IoT Platform
 2. Installing HACS and Local Tuya
 3. Configuring the Local Tuya Integration
 
@@ -15,7 +15,7 @@ This article is divided into 3 parts:
 
 <br>
 
-# Setting up the Tuya IoT Platform
+# Obtaining credentials from Tuya IoT Platform
 
 ## Create a Project and Link the App
 
@@ -122,7 +122,7 @@ Installation steps:
 
 3. Go to `Settings > Device & Services > ADD INTEGRATION` and search for Local Tuya.
 4. Configure by entering the information obtained from the Tuya IoT Platform:
-    - **Data Center Region**: For Thailand, select `Western America Data Center` or `Singapore Data Center` (depends on your account).
+    - **Data Center Region**: Select the same data center as in Tuya IoT Platform.
     - **Access ID / Client ID**
     - **Access Secret / Client Secret**
     - **App Account UID / User ID**
